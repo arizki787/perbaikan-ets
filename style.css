@@ -1,0 +1,10 @@
+.container{
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .row-cols-4 .col {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}  
